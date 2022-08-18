@@ -105,8 +105,7 @@ p.body {
 
 .feature-box .fe-box {
     width: 180px;
-    margin-top: 20px;
-    margin-left: 25px;
+    margin: 20px 0;
     text-align: center;
     padding: 25px 15px;
     border: 1px solid #cce7d0;
@@ -149,8 +148,8 @@ p.body {
 
 .product .pro {
     width: 23%;
-    margin-top: 15px;
-    margin-left: 35px;
+    padding: 40px 80px;
+    margin: 20px 0;
     min-width: 250px;
     padding: 10px 12px;
     position: relative;
@@ -261,19 +260,218 @@ p#content_pro {
     background-position: center;
     margin-top: 50px;
 }
- #btn1{
+
+#btn1 {
     font-size: 14px;
     font-weight: 700;
     padding: 15px 30px;
     color: #000;
-    background-color: #fff  ;
+    background-color: #fff;
     border-radius: 4px;
     cursor: pointer;
     border: none;
     outline: none;
     transition: 0.2s;
 }
-#btn1:hover{
+
+#btn1:hover {
     background-color: #088178;
     color: #fff;
+}
+
+.sm_banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.sm_banner .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url('/image/img/banner1.png');
+    min-width: 580px;
+    height: 50vh;
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px
+}
+
+.sm_banner .banner-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url('/image/img/banner2.png');
+    min-width: 580px;
+    height: 50vh;
+    margin: 50px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px
+}
+
+.sm_banner h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sm_banner h2 {
+    color: #088178;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.sm_banner #btn2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-left: auto;
+    margin-right: 120px;
+    transition: 0.2s;
+}
+
+.sm_banner #btn2:hover {
+    background-color: #B8B1AB;
+    color: #088178;
+}
+
+.letter {
+    display: flex;
+    padding: 40px 80px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("/image/img/signup.png");
+    background-size: cover;
+    background-position: 20% 30%;
+}
+
+.letter h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.letter p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: white
+}
+
+.letter .form {
+    display: flex;
+    width: 40%;
+}
+
+.letter input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.letter #btn3 {
+    font-size: 14px;
+    font-weight: 700;
+    width: 20%;
+    margin-left: 10px;
+    color: #000;
+    border: none;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.letter #btn3:hover {
+    color: white;
+    background-color: #088178;
+}
+
+.footer {
+    display: flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .acc {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer .about {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 250px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer #logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer h4:hover{
+    color: #088178;
+}
+.footer p {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.footer .follow {
+    margin-top: 20px;
+}
+
+.footer .follow i {
+    color: #000;
+    font-size: 20px;
+    padding-left: 14px;
+}
+
+.footer .follow i:hover {
+    color: #088178;
+}
+strong{
+    text-transform: uppercase;
+}
+.footer a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    color: #088178;
 }
