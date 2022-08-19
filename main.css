@@ -60,7 +60,7 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    background-image: url('/image/img/back.jpg');
+    background-image: url(/image/img/back.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -92,7 +92,7 @@ p.body {
 }
 
 #btn {
-    background-image: url('/image/img/button.png');
+    background-image: url(/image/img/button.png);
     background-color: transparent;
     color: white;
     border: none;
@@ -259,7 +259,7 @@ p#content_pro {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('/image/img/banner/b2.jpg');
+    background-image: url(/image/img/banner/b2.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -298,7 +298,7 @@ p#content_pro {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url('/image/img/banner1.png');
+    background-image: url(/image/img/banner1.png);
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -312,7 +312,7 @@ p#content_pro {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url('/image/img/banner2.png');
+    background-image: url(/image/img/banner2.png);
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -359,7 +359,7 @@ p#content_pro {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("/image/img/signup.png");
+    background-image: url(/image/img/signup.png);
     background-size: cover;
     background-position: 20% 30%;
 }
@@ -489,7 +489,7 @@ strong {
 /* =======Shose======== */
 
 .page-shose {
-    background-image: url('/image/img/banner/b1.jpg');
+    background-image: url(/image/img/banner/b1.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
